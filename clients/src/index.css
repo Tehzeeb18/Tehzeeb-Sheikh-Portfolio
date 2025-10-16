@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cde2b8;
+}
+
+/* DARK MODE */
+
+#dark {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #310753 0%, #0f0118 74%);
+}
+#dark body {
+  background-color: #310753;
+}
+
+/* ======================= */
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,176 @@
+.contact {
+    margin-left: 130px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card0 {
+    border-radius: 0px;
+    background-color:#CDE2B8;
+  }
+  
+  .card2 {
+    background-color:#CDE2B8;
+  }
+  
+  .card1 .image {
+    margin-top: 90px;
+    margin-left: 20px;
+    height: 300px;
+    width: 900px;
+  }
+  .border-line {
+    border-right: 1px solid #e0e0e0;
+  }
+  .line {
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+  }
+  .icondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .LinkedIn{
+    color: blue;
+    margin: 5px;
+  }
+  .Github{
+    color: black;
+    margin: 5px;
+  }
+ .cardexp h6{
+  text-align: center; 
+  }
+  .or {
+    /* display: flex; */
+    /* width: 10%; */
+    /* font-weight: bold; */
+    color: #999797;
+  }
+  
+  ::placeholder {
+    color: #999797;
+    opacity: 1;
+    font-weight: 300;
+  }
+  
+  input,
+  textarea {
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-top: 2px;
+    width: 100%;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+ .cardexp{
+    margin: auto;
+  } 
+  input:focus,
+  textarea:focus {
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0px;
+  }
+  
+  button:focus {
+    box-shadow: none;
+    outline-width: 0px;
+  }
+  
+  .button {
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .button:hover {
+    background-color: #000;
+    color: white;
+  }
+  
+ #dark .card0 {
+    background-color:purple;
+    background-color: transparent;
+  }
+#dark .cardexp h6{
+  color: white;
+text-align: center;
+}
+  
+#dark  .card2 {
+    background-color:purple;
+    background-color: transparent;
+    
+  }
+
+#dark .LinkedIn{
+  color: white;
+}
+#dark .Github{
+  color: white;
+}
+#dark ::placeholder{
+  color: rgb(73, 72, 72);
+}
+#dark input,
+#dark textarea {
+  border: 1px solid rgb(87, 35, 99);
+  background-color: rgb(201, 155, 211);
+    color: black;
+ }
+#dark input:focus,
+#dark textarea:focus {
+   outline: 1px solid rgb(223, 165, 198)!important;
+ }
+
+#dark .button {
+  background-color: rgb(87, 35, 99);
+  color: white;
+  border: none;
+}
+
+#dark .button:hover {
+  background-color: #000;
+  color: white;
+}
+
+  /* ======================== */
+  @media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .contact .card2 {
+      margin: 0;
+    }
+  
+    .contact .card2 h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 800px){
+
+ .card2 {
+      background-color:transparent;
+      margin-left: 50px;
+      width: 65vw;
+    }
+  }

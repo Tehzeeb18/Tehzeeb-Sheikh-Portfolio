@@ -1,0 +1,100 @@
+.education {
+  padding: 100px 0px;
+  margin: 50px 0px;
+  margin-left: 120px;
+}
+
+.education hr {
+  color: #303a2b;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: #303a2b;
+}
+
+.education .vertical-timeline-element-title {
+  color: #0d615d;
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: #1e1e2c;
+}
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #303a2b;
+}
+
+/* ========= DARK MODE ============ */
+
+#dark .education {
+  background-color: transparent;
+}
+
+#dark .education hr {
+  color: rgb(210, 171, 219);
+}
+
+#dark .education h2 {
+  color: rgb(210, 171, 219);
+}
+
+#dark .education .vertical-timeline-element-title {
+  color: rgb(100, 48, 197);
+}
+
+#dark .education .vertical-timeline-element-subtitle {
+  color: white;
+}
+#dark .vertical-timeline::before {
+  background: #c0a0dd;
+}
+
+/* ========================== */
+@media (max-width: 600px) {
+  .education {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .education h2 {
+    padding-top: 20px;
+  }
+  .education hr {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .education {
+    margin-left: 155px;
+    padding: 0;
+    margin-top: 30px;
+    width: 77%;
+  }
+  .education hr {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 801px) {
+  .education {
+    margin-left: 155px;
+    padding: 0;
+    margin-top: 30px;
+    width: 77%;
+  }
+  .education hr {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+}

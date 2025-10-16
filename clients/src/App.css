@@ -1,0 +1,12 @@
+.foot{
+margin-bottom: 0%;
+}
+#dark .foot{
+    color:white ;   
+}
+
+@media (min-width:601px) {
+    .foot{
+        margin-left: 150px;
+    }
+}

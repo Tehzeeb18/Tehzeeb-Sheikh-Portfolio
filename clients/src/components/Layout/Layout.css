@@ -1,0 +1,47 @@
+.sidebar-section {
+    display: flex;
+    background-color:#6e8761;
+    background-color: #1387812a;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    background-color: #374430;
+    width: 90px;
+    position: fixed;
+  }
+  .sidebar-toggle {
+    width: 200px;
+  }
+  .sidebar-toggle-icons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+  }
+  .sidebar-toggle-icons p svg {
+    background-color: #f29f67;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  #dark .sidebar-section{
+    background-image: url("https://t4.ftcdn.net/jpg/00/94/92/49/360_F_94924992_lmKgKZbwZ2QqouwH0frEb1DTF2Nh1oLd.jpg"); 
+  }
+ #dark .sidebar {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9McjD3ifbMDJMJNpcwwAF_eLKjUn3zUzTrQ&s");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #dark  .sidebar-toggle-icons p svg {
+    background-color: #7615f5;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  /* ==== MOBILE VIEW ========== */
+  @media (max-width: 600px) {
+    .sidebar {
+      display: none;
+    }
+  }

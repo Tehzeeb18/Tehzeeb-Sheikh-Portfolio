@@ -1,0 +1,141 @@
+.work {
+  background-color: #a5cb91;
+  margin-left: 140px;
+}
+
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #303a2b;
+}
+
+.work-exp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+
+.work-exp .vertical-timeline-element-title {
+  color: #0d615d;
+}
+
+.work-exp .vertical-timeline-element-subtitle {
+  color: #1e1e2c78;
+}
+
+/* ===== DARK MODE ========== */
+#dark .work {
+  background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-67768.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dark .work-exp h2 {
+  color: rgb(210, 171, 219);
+}
+
+#dark .work-exp hr {
+  color: rgb(210, 171, 219);
+}
+
+#dark .work-exp .vertical-timeline-element-title {
+  color: rgb(100, 48, 197);
+}
+
+#dark .work-exp .vertical-timeline-element-subtitle {
+  color: rgb(210, 171, 219);
+}
+/* =================== */
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .work hr {
+    width: 230px;
+  }
+}
+@media (min-width: 601px) and (max-width: 660px) {
+  .work {
+    margin-left: 179px;
+    padding: 0;
+    margin-top: 50px;
+    width: 58vw;
+  }
+
+  .work-exp {
+    padding: 60px 0px;
+  }
+  .work-exp hr {
+    width: 250px;
+  }
+}
+@media (min-width: 661px) and (max-width: 767px) {
+  .work {
+    margin-left: 150px;
+    padding: 0;
+    margin-top: 50px;
+    width: 58vw;
+  }
+
+  .work-exp {
+    padding: 60px 0px;
+  }
+  .work-exp hr {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .work {
+    margin-left: auto;
+    padding: 0;
+    margin-top: 50px;
+    width: 60vw;
+  }
+
+  .work-exp {
+    padding: 60px 0px;
+  }
+  .work-exp hr {
+    width: 290px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 992px) {
+  .work {
+    margin-left: 160px;
+    padding: 0;
+    margin-top: 50px;
+    width: 560px;
+  }
+
+  .work-exp {
+    padding: 60px 0px;
+  }
+  .work-exp hr {
+    width: 290px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+  .work {
+    margin-left: 200px;
+    padding: 0;
+    margin-top: 50px;
+    width: 730px;
+  }
+
+  .work-exp {
+    padding: 60px 0px;
+  }
+  .work-exp hr {
+    width: 290px;
+  }
+}

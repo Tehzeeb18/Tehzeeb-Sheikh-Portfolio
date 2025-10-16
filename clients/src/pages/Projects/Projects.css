@@ -1,0 +1,290 @@
+.project {
+  margin: 80px 0px;
+  margin-left: 170px;
+  width: 85%;
+}
+
+.project hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: #303a2b;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #f29f67;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.card-detail-badge {
+  background-color: #e0b50f;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.card-image-overly {
+  font-size: 20px;
+}
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+}
+.project .card {
+  /* height: 88vh; */
+  margin-top: 38px;
+}
+.project .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 1s ease;
+}
+.ad-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-btn,
+.ad-btn3 {
+  text-transform: uppercase;
+  width: 70px;
+  height: 40px;
+  background-color: #303a2b;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ad-btn:hover,
+.ad-btn3:hover {
+  background-color: white;
+  color: #303a2b;
+  background: transparent;
+  border: 2px solid #303a2b;
+  transition: 1s;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+#dark .project hr {
+  color: rgb(210, 171, 219);
+}
+
+#dark .project h2 {
+  color: rgb(210, 171, 219);
+}
+#dark .project p {
+  color: white;
+}
+
+#dark .project .card {
+  background-image: url("https://wallpapers.com/images/hd/dark-gradient-0pkijn4m63be9zse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+#dark .card-detail-badge {
+  background-color: #7c0e4ea6;
+  color: white;
+}
+
+#dark .ad-btn,
+#dark .ad-btn3 {
+  background-color: rgb(87, 35, 99);
+  color: white;
+}
+
+#dark .ad-btn:hover,
+#dark.ad-btn3:hover {
+  background-color: white;
+  color: rgb(87, 35, 99);
+  border: 2px solid rgb(87, 35, 99);
+  box-shadow: 12px 15px 20px 0px rgba(56, 2, 38, 0.15);
+}
+#dark .ad-title {
+  color: white;
+}
+
+/* =============================== */
+@media (max-width: 576px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    width: 100%;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 260px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 310px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 660px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 63vw;
+    margin: auto;
+    margin-left: 160px;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 310px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 661px) and (max-width: 768px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 62vw;
+    margin: auto;
+    margin-left: 140px;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 310px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 830px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 71vw;
+    margin: auto;
+    margin-left: 165px;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 310px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 831px) and (max-width: 991px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 69vw;
+    margin: auto;
+    margin-left: 130px;
+    background-color: transparent;
+  }
+  .project hr {
+    width: 390px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1072px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+    background-color: transparent;
+  }
+  .main-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .project hr {
+    width: 390px;
+  }
+  .project .card {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #ads {
+    margin: 0px 0px 30px 0px;
+  }
+}
+@media (min-width: 1073px) {
+  .project .card {
+    height: 400px;
+  }
+}

@@ -1,0 +1,52 @@
+.mobile-nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .mobile-nav-header {
+    height: 50px;
+    width: 100%;
+    background-color: #374430;
+    padding: 8px;
+  }
+
+ #dark .mobile-nav-header {
+    background-color: rgb(70, 38, 70);
+  }
+  
+  .mobile-nav-header .mobile-nav-icon {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-title {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  .mobile-nav-menu .nav-items {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374430;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 10px;
+  }
+
+ #dark .mobile-nav-menu .nav-items {
+    background-color:  rgb(70, 38, 70);
+  }
+  @media (min-width: 601px) {
+    .mobile-nav {
+      display: none;
+    }
+  }
